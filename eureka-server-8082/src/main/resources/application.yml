@@ -1,0 +1,21 @@
+server:
+  port: 8082
+
+spring:
+  application:
+    name: springboot-demo-eurekaserver
+
+eureka:
+  instance:
+    hostname: localhost  #服务注册中心的主机名
+  client:
+    register-with-eureka: false  #是否向注册中心注册自己
+    fetch-registry: false  #是否检索服务
+    service-url:
+      defaultZone: http://127.0.0.1:8082/eureka/  #注册中心的地址
+  server:
+    enable-self-preservation: false
+
+#ribbon:
+#  eureka:
+#    enabled: true

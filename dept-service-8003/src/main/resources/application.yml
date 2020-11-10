@@ -1,0 +1,33 @@
+server:
+  port: 8083
+spring:
+  application:
+    name: springboot-demo-dept-service
+  datasource:
+    url: jdbc:mysql://localhost:3306/test1105?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: chen1234
+    type: com.alibaba.druid.pool.DruidDataSource
+
+eureka:
+  client:
+    fetch-registry: true #是否检索服务
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://127.0.0.1:8082/eureka/
+  instance:
+    prefer-ip-address: true #在eureka中显示ip地址
+    ip-address: 127.0.0.1
+    instance-id: ${spring.application.name}:${server.port}
+#    lease-expiration-duration-in-seconds: 60 #表示eureka server从上一次收到client的心跳，等待下一次心跳的超时时间
+#    lease-renewal-interval-in-seconds: 30 #client发送心跳的频率
+
+
+mybatis:
+  mapper-locations: classpath:mybatis/mapper/*.xml
+  type-aliases-package: com.yitong.domain.entity  # 这里是配置自动扫描实体类，这样mapper.xml中的参数类型就可以直接写类名
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    map-underscore-to-camel-case: true
+    call-setters-on-nulls: true
