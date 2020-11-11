@@ -26,7 +26,7 @@ public class UserApi {
     @GetMapping("/user/{uid}")
     public List<User> getUser(@PathVariable("uid") Integer uid) {
         User user = new User();
-        user.setUid(uid);
+        user.setUserId(uid);
         return userService.read(user);
     }
 
@@ -71,13 +71,10 @@ public class UserApi {
     }
 
     @ApiOperation("删除用户接口")
-    @DeleteMapping("/user")
-    public void delete(@RequestBody User user) {
-        if (user.getDcode() != null) {
-            String port = deptExtClient.getDept(user.getDcode());
-            log.info("delete user query dept, port is: " + port);
-            // todo
-        }
+    @DeleteMapping("/user/{uid}")
+    public void delete(@PathVariable("uid") Integer uid) {
+        User user = new User();
+        user.setUserId(uid);
         userService.delete(user);
     }
 }

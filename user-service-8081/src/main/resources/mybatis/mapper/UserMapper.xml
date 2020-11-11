@@ -2,8 +2,8 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.yitong.domain.repository.UserRepository">
-    <resultMap id="userMap" type="com.yitong.domain.entity.User">
-        <id property="uid" column="UID" jdbcType="INTEGER"></id>
+    <resultMap id="userMap" type="User">
+        <id property="userId" column="USERID" jdbcType="INTEGER"></id>
         <result property="userName" column="USERNAME" jdbcType="VARCHAR"></result>
         <result property="age" column="AGE" jdbcType="INTEGER"></result>
         <result property="birth" column="BIRTH" jdbcType="DATE"></result>
@@ -11,8 +11,8 @@
     </resultMap>
 
     <sql id="where_sql">
-      <if test="uid != null">
-          and UID = #{uid, jdbcType=INTEGER}
+      <if test="userId != null">
+          and USERID = #{userId, jdbcType=INTEGER}
       </if>
       <if test="userName != null and userName != '' ">
           and USERNAME = #{userName, jdbcType=VARCHAR}
@@ -28,11 +28,11 @@
       </if>
     </sql>
 
-    <insert id="create" parameterType="com.yitong.domain.entity.User">
-        insert into user
+    <insert id="create" parameterType="User">
+        insert into t_user
         <trim prefix="(" suffix=")" suffixOverrides=",">
-            <if test="uid != null">
-                UID,
+            <if test="userId != null">
+                USERID,
             </if>
             <if test="userName != null">
                 USERNAME,
@@ -41,15 +41,15 @@
                 AGE,
             </if>
             <if test="birth != null">
-                BIRTH,
+               BIRTH,
             </if>
             <if test="dcode != null">
                DCODE,
             </if>
         </trim>
         <trim prefix="values (" suffix=")" suffixOverrides=",">
-            <if test="uid != null">
-                #{uid, jdbcType=INTEGER},
+            <if test="userId != null">
+                #{userId, jdbcType=INTEGER},
             </if>
             <if test="userName != null">
                 #{userName, jdbcType=VARCHAR},
@@ -66,15 +66,15 @@
         </trim>
     </insert>
 
-    <select id="read" resultMap="userMap" parameterType="com.yitong.domain.entity.User">
-        select UID, USERNAME, AGE, BIRTH, DCODE from user
+    <select id="read" resultMap="userMap" parameterType="User">
+        select USERID, USERNAME, AGE, BIRTH, DCODE from t_user
         <where>
             <include refid="where_sql"/>
         </where>
     </select>
 
-    <update id="update" parameterType="com.yitong.domain.entity.User">
-        update user
+    <update id="update" parameterType="user">
+        update t_user
         <trim prefix="set " suffix="" suffixOverrides=",">
             <if test="userName != null">
                 USERNAME = #{userName, jdbcType=VARCHAR},
@@ -89,10 +89,10 @@
                 DCODE = #{dcode, jdbcType=INTEGER}
             </if>
         </trim>
-        where UID = #{uid, jdbcType=INTEGER}
+        where USERID = #{userId, jdbcType=INTEGER}
     </update>
 
-    <delete id="delete" parameterType="com.yitong.domain.entity.User">
-        delete from user where UID = #{uid, jdbcType=INTEGER}
+    <delete id="delete" parameterType="User">
+        delete from t_user where USERID = #{userId, jdbcType=INTEGER}
     </delete>
 </mapper>

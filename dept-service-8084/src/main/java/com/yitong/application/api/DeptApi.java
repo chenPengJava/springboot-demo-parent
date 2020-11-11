@@ -49,8 +49,10 @@ public class DeptApi {
     }
 
     @ApiOperation("删除部门接口")
-    @DeleteMapping("/dept")
-    public void delete(@RequestBody Dept dept) {
+    @DeleteMapping("/dept/{dcode}")
+    public void delete(@PathVariable("dcode") Integer dcode) {
+        Dept dept = new Dept();
+        dept.setDcode(dcode);
         deptService.delete(dept);
     }
 }

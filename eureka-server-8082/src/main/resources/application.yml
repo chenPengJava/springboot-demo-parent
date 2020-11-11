@@ -14,8 +14,6 @@ eureka:
     service-url:
       defaultZone: http://127.0.0.1:8082/eureka/  #注册中心的地址
   server:
+    # 测试时关闭自我保护机制，保证不可用服务及时踢出
     enable-self-preservation: false
 
-#ribbon:
-#  eureka:
-#    enabled: true

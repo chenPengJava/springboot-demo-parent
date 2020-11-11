@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="082c51d6-960a-4f1d-83e8-29810c156d3a" name="Default Changelist" comment="" />
+    <list default="true" id="082c51d6-960a-4f1d-83e8-29810c156d3a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dept-service-8003/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dept-service-8003/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dept-service-8003/src/main/java/com/yitong/DeptServiceApplication8003.java" beforeDir="false" afterPath="$PROJECT_DIR$/dept-service-8003/src/main/java/com/yitong/DeptServiceApplication8003.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dept-service-8003/src/main/java/com/yitong/application/api/DeptApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/dept-service-8003/src/main/java/com/yitong/application/api/DeptApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dept-service-8003/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dept-service-8003/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dept-service-8084/src/main/java/com/yitong/application/api/DeptApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/dept-service-8084/src/main/java/com/yitong/application/api/DeptApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dept-service-8084/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dept-service-8084/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server-8082/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server-8082/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service-8081/src/main/java/com/yitong/application/api/UserApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service-8081/src/main/java/com/yitong/application/api/UserApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service-8081/src/main/java/com/yitong/domain/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service-8081/src/main/java/com/yitong/domain/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service-8081/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service-8081/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service-8081/src/main/resources/mybatis/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service-8081/src/main/resources/mybatis/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service-8081/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service-8081/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service-8081/target/classes/com/yitong/UserServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service-8081/target/classes/com/yitong/UserServiceApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service-8081/target/classes/com/yitong/application/api/UserApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service-8081/target/classes/com/yitong/application/api/UserApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service-8081/target/classes/com/yitong/domain/entity/User$UserBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service-8081/target/classes/com/yitong/domain/entity/User$UserBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service-8081/target/classes/com/yitong/domain/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service-8081/target/classes/com/yitong/domain/entity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service-8081/target/classes/mybatis/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service-8081/target/classes/mybatis/mapper/UserMapper.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/dept-service-8003/target/" />
@@ -15,12 +34,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/user-service-8081/src/main/java/com/yitong/UserServiceApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="19" selection-start-column="19" selection-end-column="19" />
+            <state relative-caret-position="173">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -28,39 +47,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/user-service-8081/src/main/java/com/yitong/application/api/UserApi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="72" column="21" selection-start-line="72" selection-start-column="21" selection-end-line="72" selection-end-column="21" />
+            <state relative-caret-position="466">
+              <caret line="54" column="50" lean-forward="true" selection-start-line="54" selection-start-column="50" selection-end-line="54" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#getUser#0;class#UserApi#0" />
-                <element signature="e#841#1004#1" />
-                <element signature="method#read#0;class#UserApi#0" />
-                <element signature="e#1190#1345#1" />
-                <element signature="e#1463#1531#1" />
-                <element signature="e#1679#1842#1" />
-                <element signature="e#2004#2167#1" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user-service-8081/pom.xml">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dept-service-8003/src/main/java/com/yitong/application/api/DeptApi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="82" column="21" selection-start-line="71" selection-start-column="8" selection-end-line="82" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dept-service-8084/src/main/java/com/yitong/application/api/DeptApi.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
-              <folding>
-                <element signature="method#getDept#0;class#DeptApi#0" />
-              </folding>
+            <state relative-caret-position="194">
+              <caret line="34" column="54" lean-forward="true" selection-start-line="34" selection-start-column="54" selection-end-line="34" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -68,38 +68,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dept-service-8084/src/main/java/com/yitong/DeptServiceApplication8004.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
+            <state relative-caret-position="172">
               <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dept-service-8084/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-server-8082/src/main/java/com/yitong/EurekaServerApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#594#595#0" expanded="true" />
+                <element signature="e#671#672#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dept-service-8084/pom.xml">
+        <entry file="file://$PROJECT_DIR$/dept-service-8003/src/main/java/com/yitong/DeptServiceApplication8003.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="474">
-              <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
+            <state relative-caret-position="242">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -111,30 +94,38 @@
       <find>ribb</find>
       <find>ribbon</find>
       <find>gekey</find>
+      <find>user</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/dept-service-8003/pom.xml" />
-        <option value="$PROJECT_DIR$/dept-service-8003/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/dept-service-8084/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/eureka-server-8082/src/main/java/EurekaServerApplication.java" />
         <option value="$PROJECT_DIR$/eureka-server-8082/src/main/java/yitong/EurekaServerApplication.java" />
         <option value="$PROJECT_DIR$/eureka-server-8082/src/main/java/com/yitong/EurekaServerApplication.java" />
         <option value="$PROJECT_DIR$/eureka-server-8082/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/dept-service-8003/src/main/java/com/yitong/application/api/DeptApi.java" />
         <option value="$PROJECT_DIR$/user-service-8081/src/main/java/com/yitong/application/external/CheckDeptExtClient.java" />
         <option value="$PROJECT_DIR$/dept-service-8084/src/main/java/com/yitong/DeptServiceApplication.java" />
         <option value="$PROJECT_DIR$/dept-service-8003/src/main/java/com/yitong/DeptServiceApplication.java" />
-        <option value="$PROJECT_DIR$/user-service-8081/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/user-service-8081/pom.xml" />
-        <option value="$PROJECT_DIR$/user-service-8081/src/main/java/com/yitong/application/api/UserApi.java" />
         <option value="$PROJECT_DIR$/user-service-8081/src/main/java/com/yitong/UserServiceApplication.java" />
         <option value="$PROJECT_DIR$/dept-service-8084/pom.xml" />
-        <option value="$PROJECT_DIR$/dept-service-8084/src/main/java/com/yitong/application/api/DeptApi.java" />
         <option value="$PROJECT_DIR$/dept-service-8084/src/main/java/com/yitong/DeptServiceApplication8004.java" />
+        <option value="$PROJECT_DIR$/user-service-8081/src/main/java/com/yitong/domain/entity/User.java" />
+        <option value="$PROJECT_DIR$/user-service-8081/src/main/java/com/yitong/application/api/UserApi.java" />
+        <option value="$PROJECT_DIR$/user-service-8081/src/main/resources/mybatis/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/user-service-8081/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/dept-service-8084/src/main/java/com/yitong/application/api/DeptApi.java" />
+        <option value="$PROJECT_DIR$/dept-service-8003/pom.xml" />
+        <option value="$PROJECT_DIR$/dept-service-8003/src/main/java/com/yitong/DeptServiceApplication8003.java" />
+        <option value="$PROJECT_DIR$/dept-service-8003/src/main/java/com/yitong/application/api/DeptApi.java" />
+        <option value="$PROJECT_DIR$/eureka-server-8082/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/dept-service-8003/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/dept-service-8084/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -152,12 +143,13 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="575" />
     <option name="y" value="10" />
     <option name="width" value="1280" />
     <option name="height" value="1040" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -170,12 +162,328 @@
               <item name="springboot-demo-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-demo-parent" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="springboot-demo-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-demo-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="dept-service-8003" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-demo-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-demo-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="dept-service-8003" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-demo-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-demo-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="dept-service-8003" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-demo-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-demo-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="dept-service-8003" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-demo-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-demo-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="dept-service-8003" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-demo-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-demo-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="dept-service-8003" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yitong" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-demo-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-demo-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="dept-service-8003" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yitong" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-demo-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-demo-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="dept-service-8003" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yitong" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-demo-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-demo-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="dept-service-8003" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yitong" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-demo-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-demo-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="dept-service-8003" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-demo-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-demo-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="dept-service-8084" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-demo-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-demo-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="dept-service-8084" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-demo-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-demo-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="dept-service-8084" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-demo-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-demo-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="dept-service-8084" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-demo-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-demo-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="dept-service-8084" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-demo-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-demo-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="dept-service-8084" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yitong" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-demo-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-demo-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="dept-service-8084" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yitong" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-demo-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-demo-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="dept-service-8084" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yitong" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-demo-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-demo-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="dept-service-8084" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-demo-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-demo-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server-8082" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-demo-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-demo-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server-8082" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-demo-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-demo-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server-8082" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-demo-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-demo-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server-8082" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-demo-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-demo-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server-8082" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-demo-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-demo-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="user-service-8081" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-demo-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-demo-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="user-service-8081" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-demo-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-demo-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="user-service-8081" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-demo-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-demo-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="user-service-8081" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-demo-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-demo-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="user-service-8081" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-demo-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-demo-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="user-service-8081" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yitong" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-demo-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-demo-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="user-service-8081" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yitong" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-demo-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-demo-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="user-service-8081" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yitong" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-demo-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-demo-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="user-service-8081" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yitong" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-demo-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-demo-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="user-service-8081" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yitong" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-demo-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-demo-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="user-service-8081" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-demo-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-demo-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="user-service-8081" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-demo-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-demo-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="user-service-8081" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -185,7 +493,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1604993837818" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1605063794781" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -239,6 +547,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DeptServiceApplication8003" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="deptservice8003" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yitong.DeptServiceApplication8003" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DeptServiceApplication8004" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="deptservice8084" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.yitong.DeptServiceApplication8004" />
@@ -276,49 +591,51 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604967918054</updated>
-      <workItem from="1604967920651" duration="11710000" />
+      <workItem from="1604967920651" duration="12342000" />
+      <workItem from="1605054294555" duration="6419000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11710000" />
+    <option name="totallyTimeSpent" value="18761000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Web" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23190348" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23525469" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329429" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3235725" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3196481" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" weight="0.17560321" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.17560321" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -355,16 +672,7 @@
     <entry file="file://$PROJECT_DIR$/dept-service-8084/src/main/resources/mybatis/mapper/DeptMapper.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server-8082/src/main/java/yitong/EurekaServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server-8082/src/main/java/yitong/EurekaServerApplication.java" />
     <entry file="file://$PROJECT_DIR$/eureka-server-8082/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
@@ -379,17 +687,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server-8082/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/user-service-8081/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-service-8081/src/main/resources/mybatis/mapper/UserMapper.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/user-service-8081/src/main/java/com/yitong/domain/entity/Dept.java">
@@ -399,34 +697,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
           <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dept-service-8003/src/main/java/com/yitong/application/api/DeptApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="29" column="54" lean-forward="true" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dept-service-8003/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-110">
-          <caret line="30" column="21" lean-forward="true" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dept-service-8003/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-service-8081/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
         </state>
       </provider>
     </entry>
@@ -444,13 +714,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dept-service-8003/src/main/java/com/yitong/DeptServiceApplication8003.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/user-service-8081/src/main/java/com/yitong/application/external/CheckDeptExtClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -461,30 +724,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user-service-8081/src/main/java/com/yitong/application/api/UserApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="72" column="21" selection-start-line="72" selection-start-column="21" selection-end-line="72" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#getUser#0;class#UserApi#0" />
-            <element signature="e#841#1004#1" />
-            <element signature="method#read#0;class#UserApi#0" />
-            <element signature="e#1190#1345#1" />
-            <element signature="e#1463#1531#1" />
-            <element signature="e#1679#1842#1" />
-            <element signature="e#2004#2167#1" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-service-8081/src/main/java/com/yitong/UserServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="19" selection-start-column="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$MAVEN_REPOSITORY$/com/spring4all/swagger-spring-boot-starter/1.7.1.RELEASE/swagger-spring-boot-starter-1.7.1.RELEASE.pom">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="792">
@@ -492,51 +731,137 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user-service-8081/pom.xml">
+    <entry file="file://$PROJECT_DIR$/user-service-8081/src/main/resources/mybatis/mapper/UserMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="82" column="21" selection-start-line="71" selection-start-column="8" selection-end-line="82" selection-end-column="21" />
+        <state relative-caret-position="550">
+          <caret line="46" column="21" lean-forward="true" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-service-8081/src/main/java/com/yitong/domain/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-service-8081/src/main/java/com/yitong/application/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="39" column="35" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server-8082/src/main/java/com/yitong/EurekaServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dept-service-8084/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
+        <state relative-caret-position="365">
+          <caret line="74" column="21" selection-start-line="63" selection-start-column="8" selection-end-line="74" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dept-service-8003/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="74" column="21" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-service-8081/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-service-8081/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="63" column="19" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server-8082/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dept-service-8003/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dept-service-8084/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dept-service-8084/src/main/java/com/yitong/application/api/DeptApi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+        <state relative-caret-position="176">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="method#getDept#0;class#DeptApi#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server-8082/src/main/java/com/yitong/EurekaServerApplication.java">
+    <entry file="file://$PROJECT_DIR$/dept-service-8003/src/main/java/com/yitong/DeptServiceApplication8003.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        <state relative-caret-position="242">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dept-service-8084/src/main/java/com/yitong/DeptServiceApplication8004.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#594#595#0" expanded="true" />
+            <element signature="e#671#672#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-service-8081/src/main/java/com/yitong/UserServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-service-8081/src/main/java/com/yitong/application/api/UserApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="54" column="50" lean-forward="true" selection-start-line="54" selection-start-column="50" selection-end-line="54" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dept-service-8084/src/main/java/com/yitong/DeptServiceApplication8004.java">
+    <entry file="file://$PROJECT_DIR$/dept-service-8003/src/main/java/com/yitong/application/api/DeptApi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dept-service-8084/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        <state relative-caret-position="194">
+          <caret line="34" column="54" lean-forward="true" selection-start-line="34" selection-start-column="54" selection-end-line="34" selection-end-column="54" />
         </state>
       </provider>
     </entry>
